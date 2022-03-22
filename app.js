@@ -150,7 +150,7 @@ function getNextPalindromeDate(date) {
 
 var birthdayInput=document.querySelector("#date1");
 var btn1=document.querySelector("#btn")
-
+var msg=document.querySelector("#msg")
 
 function handler()
 {
@@ -183,7 +183,8 @@ function handler()
     if(!flag)
     {
         var[counter,date1]=getNextPalindromeDate(date)
-        console.log(counter+", "+date1.day+"-"+date1.month+"-"+date1.year)
+
+        msg.innerText="No.of days "+counter+", "+"Next palindrome date is "+date1.day+"-"+date1.month+"-"+date1.year
     }
     
     else {
