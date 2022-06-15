@@ -60,7 +60,7 @@ function isLeapYear(year) {
     return true;
   }
   if (year % 100 === 0) {
-    return true;
+    return false;
   }
   return false;
 }
@@ -95,6 +95,8 @@ function getNextDate(date) {
   console.log(day1 + " " + month1 + " " + year1);
   return { day: day1, month: month1, year: year1 };
 }
+
+
 function getNextPalindromeDate(date) {
   var nextDate = getNextDate(date);
   var ctr = 0;
