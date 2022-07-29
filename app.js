@@ -147,15 +147,8 @@ function handler() {
       var [counter, date1] = getNextPalindromeDate(date);
 
       msg.innerText =
-        "No.of days " +
-        counter +
-        ", " +
-        "Next palindrome date is " +
-        date1.day +
-        "-" +
-        date1.month +
-        "-" +
-        date1.year;
+
+        "Your Birthday is not palindrome😢😢😢" + ", " + "Next palindrome date is " + date1.day + "-" + date1.month + "-" + date1.year + ", " + "Remainig No.of days for next date is " + counter;
     } else {
       msg.innerText = "your birthday is palindrome 🥳 🥳 ";
       console.log("your birthday is palindrome");
