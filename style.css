@@ -80,5 +80,8 @@ footer {
     color: white;
    
 }
-
+footer ul
+{
+    padding-inline-start: 0px;
+}
   
