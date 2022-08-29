@@ -154,6 +154,9 @@ function handler() {
       console.log("your birthday is palindrome");
     }
   }
+  else {
+    msg.innerText = "Please enter birthdate and check"
+  }
 
   // console.log(date)
 }
